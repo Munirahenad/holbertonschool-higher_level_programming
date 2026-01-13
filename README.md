@@ -15,12 +15,6 @@ This repository contains beginner-friendly exercises and notes covering core Pyt
 - Follow standard Python style conventions (PEP 8)
 - Validate code quality using `pycodestyle`
 
-## Resources
-- Python Official Tutorial (basics and interpreter usage)
-- Python String Formatting (f-strings and formatting patterns)
-- pycodestyle Documentation (style and code checks)
-`
-
 ## Requirements
 - The first line of every script must be exactly:
   ```python
