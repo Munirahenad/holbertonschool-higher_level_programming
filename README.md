@@ -15,9 +15,6 @@ By the end of this project, you should be able to explain:
 - The official Python coding style and how to check it with `pycodestyle`
 
 ## Requirements
-
-- **OS:** Ubuntu 20.04 LTS
-- **Python version:** Python 3.8.*
 - The first line of every script must be exactly:
   ```python
   #!/usr/bin/python3
