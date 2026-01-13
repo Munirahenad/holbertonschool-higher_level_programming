@@ -5,14 +5,21 @@ Welcome to the Python world!
 This project is an introduction to Python programming. It focuses on using the Python interpreter, printing output, working with strings, and understanding indexing and slicing. You will also follow the official Python style guide using **pycodestyle**.
 
 ## Learning Objectives
+This repository contains beginner-friendly exercises and notes covering core Python fundamentals. The goal is to build a strong foundation in writing simple Python scripts, working with strings, and following clean coding standards.
 
-By the end of this project, you should be able to explain:
 
-- How to use the Python interpreter
-- How to print text and variables using `print()`
-- How to work with strings
-- What indexing and slicing are in Python
-- The official Python coding style and how to check it with `pycodestyle`
+- Use the Python interpreter confidently
+- Print text and variables using `print()`
+- Work with strings effectively
+- Apply indexing and slicing to extract parts of strings
+- Follow standard Python style conventions (PEP 8)
+- Validate code quality using `pycodestyle`
+
+## Resources
+- Python Official Tutorial (basics and interpreter usage)
+- Python String Formatting (f-strings and formatting patterns)
+- pycodestyle Documentation (style and code checks)
+`
 
 ## Requirements
 - The first line of every script must be exactly:
