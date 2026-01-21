@@ -1,52 +1,20 @@
-The ``3-say_my_name`` module
+#!/usr/bin/python3
+# 3-say_my_name.py
+# Brennan D Baraban <375@holbertonschool.com>
+"""Defines a name-printing function."""
 
-Using ``say_my_name``
 
-Importing function from the module:
+def say_my_name(first_name, last_name=""):
+    """Print a name.
 
-    >>> say_my_name = __import__('3-say_my_name').say_my_name
-
-Passing first_name and last_name correctly
-
-    >>> say_my_name("Betty", "Holberton")
-    My name is Betty Holberton
-
-Passing first_name and last_name correctly 2
-
-    >>> say_my_name("Luis")
-    My name is Luis 
-
-Passing None as the last_name
-
-    >>> say_my_name("John", None)
-    Traceback (most recent call last):
-    	      ...
-    TypeError: last_name must be a string
-
-Passing None as the first_name
-
-    >>> say_my_name(None)
-    Traceback (most recent call last):
-    	      ...
-    TypeError: first_name must be a string
-
-Passing a number as the first_name
-
-    >>> say_my_name(1)
-    Traceback (most recent call last):
-    	      ...
-    TypeError: first_name must be a string
-
-Passing a number as the last_name
-
-    >>> say_my_name("Betty", 0)
-    Traceback (most recent call last):
-    	      ...
-    TypeError: last_name must be a string
-
-Missing two arguments
-
-    >>> say_my_name()
-    Traceback (most recent call last):
-    	      ...
-    TypeError: say_my_name() missing 1 required positional argument: 'first_name'
+    Args:
+        first_name (str): The first name to print.
+        last_name (str): The last name to print.
+    Raises:
+        TypeError: If either of first_name or last_name are not strings.
+    """
+    if not isinstance(first_name, str):
+        raise TypeError("first_name must be a string")
+    if not isinstance(last_name, str):
+        raise TypeError("last_name must be a string")
+    print("My name is {} {}".format(first_name, last_name))
