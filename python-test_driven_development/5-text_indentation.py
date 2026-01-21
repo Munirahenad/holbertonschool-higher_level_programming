@@ -5,7 +5,8 @@ Contains function text_indentation.
 
 
 def text_indentation(text):
-    """Prints a text with 2 new lines after each of these characters: ., ? and :.
+    """Prints a text with 2 new lines after each of these characters:
+    ., ? and :.
 
     Args:
         text (str): The input text.
