@@ -19,7 +19,6 @@ def text_indentation(text):
     i = 0
     n = len(text)
 
-    # Skip leading spaces
     while i < n and text[i] == ' ':
         i += 1
 
@@ -30,7 +29,6 @@ def text_indentation(text):
         if ch in ".?:":
             print("\n")
             i += 1
-            # Skip spaces after delimiter
             while i < n and text[i] == ' ':
                 i += 1
             continue
