@@ -10,14 +10,14 @@ def text_indentation(text):
     """
     if not isinstance(text, str):
         raise TypeError("text must be a string")
-    
+
     i = 0
     length = len(text)
     result = ""
-    
+
     while i < length:
         result += text[i]
-        
+
         if text[i] in ".?:":
             result += "\n\n"
             i += 1
@@ -25,9 +25,9 @@ def text_indentation(text):
             while i < length and text[i] == " ":
                 i += 1
             continue
-        
+
         i += 1
-    
+
     # Print without extra newlines
     lines = result.split("\n")
     for i, line in enumerate(lines):
