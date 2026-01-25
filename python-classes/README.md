@@ -9,10 +9,9 @@ You will practice creating classes, instances, attributes (public/protected/priv
 
 ## Resources (Read/Watch)
 
-Properties vs. Getters and Setters
-Learn to Program 9 : Object Oriented Programming
-Python Classes and Objects
-Object Oriented Programming
+https://python-course.eu/oop/properties-vs-getters-and-setters.php
+https://www.youtube.com/watch?v=apACNr7DC_s
+https://www.youtube.com/watch?v=-DP1i2ZU9gk
   
 
 ---
