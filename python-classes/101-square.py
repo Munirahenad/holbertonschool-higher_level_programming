@@ -67,4 +67,3 @@ class Square:
             lines.append(" " * self.__position[0] + "#" * self.__size)
 
         return "\n".join(lines)
-
