@@ -18,30 +18,6 @@ https://www.youtube.com/watch?v=-DP1i2ZU9gk
 
 ---
 
-## Learning Objectives
-
-By the end of this project, you should be able to explain (without Google):
-
-- What is OOP
-- “first-class everything”
-- What is a class
-- What is an object and an instance
-- Difference between a class and an object/instance
-- What is an attribute
-- Public, protected and private attributes (how to use them)
-- What is `self`
-- What is a method
-- What is the special `__init__` method and how to use it
-- Data Abstraction, Data Encapsulation, and Information Hiding
-- What is a property
-- Difference between an attribute and a property in Python
-- The Pythonic way to write getters and setters
-- Dynamically creating new attributes for existing instances
-- How to bind attributes to objects and classes
-- What is `__dict__` (class/instance) and what it contains
-- How Python finds attributes
-- How to use `getattr`
-
 ---
 
 ## Requirements
