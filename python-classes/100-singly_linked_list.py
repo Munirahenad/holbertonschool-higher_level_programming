@@ -68,4 +68,3 @@ class SinglyLinkedList:
             lines.append(str(current.data))
             current = current.next_node
         return "\n".join(lines)
-
