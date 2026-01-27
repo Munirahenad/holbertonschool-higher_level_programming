@@ -1,4 +1,6 @@
+===========================
 Module with class MyList
+===========================
 
 First, let's import the MyList class:
     >>> MyList = _import_('1-my_list').MyList
