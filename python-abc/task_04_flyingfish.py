@@ -1,22 +1,30 @@
 #!/usr/bin/env python3
-"""CountedIterator - iterator that counts how many items were fetched."""
+
+# Parent class Fish
+class Fish:
+    def swim(self):
+        print("The fish is swimming")
+
+    def habitat(self):
+        print("The fish lives in water")
 
 
-class CountedIterator:
-    """Wrap an iterable's iterator and count fetched items."""
+# Parent class Bird
+class Bird:
+    def fly(self):
+        print("The bird is flying")
 
-    def __init__(self, iterable):
-        self.iterator = iter(iterable)
-        self._count = 0
+    def habitat(self):
+        print("The bird lives in the sky")
 
-    def __iter__(self):
-        return self
 
-    def __next__(self):
-        item = next(self.iterator)  # raises StopIteration when finished (as required)
-        self._count += 1
-        return item
+# Child class FlyingFish with multiple inheritance
+class FlyingFish(Fish, Bird):
+    def swim(self):
+        print("The flying fish is swimming!")
 
-    def get_count(self):
-        """Return how many items have been iterated over so far."""
-        return self._count
+    def fly(self):
+        print("The flying fish is soaring!")
+
+    def habitat(self):
+        print("The flying fish lives both in water and the sky!")
