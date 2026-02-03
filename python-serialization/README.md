@@ -65,5 +65,3 @@ This project is designed for learning and practice in:
 ## Authors
 
 - **Munirah Enad** — Holberton School
-``
-
