@@ -1,0 +1,3 @@
+-- 1. Create a database if missing
+-- Creates the database hbtn_0c_0 (does not fail if it already exists).
+CREATE DATABASE IF NOT EXISTS hbtn_0c_0;
